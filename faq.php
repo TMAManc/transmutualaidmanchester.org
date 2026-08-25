@@ -8,20 +8,9 @@
 </head>
 
 <body>
-    <header>
-        <div class="main-title">Trans Mutual Aid Manchester
-        <img src="./img/tmam-logo.jpg" alt="Trans Mutual Aid Manchester Logo" style="width:85px;height:85px"><br></div>
-        <div class="nav-bar">
-            <a href="./index.html">Home</a>
-            <a href="./about.html">About Us</a>
-            <a href="./donate.html">Donate</a>
-            <a href="./assistance.html">Assistance</a>
-            <a href="./getinvolved.html">Get Involved</a>
-            <a href="./healthcare.html">Healthcare</a>
-            <a href="./basicrights.html">The Problem</a>
-            <a href="./faq.html">FAQ</a>
-        </div>
-    </header>
+<?php
+    include("header.php");
+?>
 
     <main>
         <div class="center">
@@ -34,6 +23,11 @@
             <p>
                 <b>Can you help me get HRT?</b><br>
                 We don't advertise grey or black market sources here. Check popular web forums or go to a social event there will be a lot of people DIYing who can advise you on sources.
+            </p>
+            <p>
+                <b>I am in urgent need but your team won't approve a grant</b><br>
+                All grants are limited by time and amount. This is to ensure that the grants are spread evenly between those in need. We are a group of volunteers working entirely from donations,
+                occasionally things can get lost in our system and require chasing up. However, if you attempt to bypass our restrictions or intimidate our team you will be blocked from all future grants.
             </p>
             </p><p>    
                 <b>Who runs TMAM?<br></b>
@@ -64,7 +58,7 @@
                 <b>What sort of work could I be doing if I join TMAM?</b><br>
                 Anything you have the dedication for and want to do. If you have an idea that helps make trans people in Manchester's lives easier we're more than happy for you to do it through our organisation. We're also always looking for more people to respond to grant requests as it is not the most enjoyable job and has higher turnover.<br>
                 
-                There are several things we would like to do that get floated at meetings regularly that we don't have the time or experience to organise. Current roles we would like to fill at time of writing: web developer, improved GP mapping, strong intergroup networking, skills workshops.<br>
+                There are several things we would like to do that get floated at meetings regularly that we don't have the time or experience to organise. Current roles we would like to fill at time of writing: improved GP mapping, strong intergroup networking, skills workshops.<br>
             </p><p>    
                 <b>How can you assist refuges?</b><br>
                 If you move to Manchester we will help you in our usual ways to the best of our ability, however given the difficulty of such a move and the unfortunate fact that the UK is on a quick downward trend in our legal rights we recommend finding somewhere else to emigrate to.
@@ -72,9 +66,9 @@
             </p>
         </div>
     </main>
-    <footer>
-        TMA Manchester CIC, Registered Company Number 15807720 <br> contact: <a href="mailto:contact@transmutualaidmanchester.org">contact@transmutualaidmanchester.org</a>
-    </footer>
+    <?php
+    include("footer.php");
+    ?>
 </body>
 
 </html>
