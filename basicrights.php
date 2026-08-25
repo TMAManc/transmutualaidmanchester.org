@@ -8,20 +8,9 @@
 </head>
 
 <body>
-    <header>
-        <div class="main-title">Trans Mutual Aid Manchester
-            <img src="./img/tmam-logo.jpg" alt="Trans Mutual Aid Manchester Logo" style="width:85px;height:85px"><br></div>
-        <div class="nav-bar">
-            <a href="./index.html">Home</a>
-            <a href="./about.html">About Us</a>
-            <a href="./donate.html">Donate</a>
-            <a href="./assistance.html">Assistance</a>
-            <a href="./getinvolved.html">Get Involved</a>
-            <a href="./healthcare.html">Healthcare</a>
-            <a href="./basicrights.html">The Problem</a>
-            <a href="./faq.html">FAQ</a>
-        </div>
-    </header>
+<?php
+    include("header.php");
+?>
     <main>
         <div class="center">
             <p>
@@ -48,7 +37,7 @@
                 waiting lists longer than the UK's life expectancy</a>. The so called diagnostic criteria for gender dysphoria are a farce. The GIC system is built around the refusal to admit that trans people are a <a href="https://medium.com/@christine.lynn.chilton/the-timeless-presence-of-transgender-identity-celebrating-ancient-historys-notable-figures-d7ecf337833a">normal</a> <a href="https://www.erininthemorning.com/p/the-most-legendary-trans-figures">part</a> of <a href="https://leedsunilibrary.wordpress.com/2025/03/31/who-was-the-roman-emperor-elagabalus/">human</a> <a href="https://theconversation.com/not-just-eunuchs-or-sex-workers-in-ancient-mesopotamia-gender-diverse-people-held-positions-of-power-270269">existence</a>. Indigo is
                 <a href="https://www.wearequeeraf.com/a-brief-history-of-how-the-uks-broken-trans-healthcare-system-only-serves-its-cisgender-doctors/?ref=trans-history-stories-newsletter">less abusive</a> than most GICs but its existence is still an <a href="https://transwrites.world/my-doctor-emailed-me-back/">insult</a>. The NHS has repeatedly refused to engage with demands for informed consent, <a href="https://transactual.org.uk/blog/2025/12/18/initial-response-to-the-publication-of-the-levy-review-of-adult-gender-services-in-england/">including
                 in the most recent review,</a> despite it being the obvious solution to the numerous issues with GICs. Trans healthcare is not complicated and we should not have to seek permission to transition.<br>
-                If you are struggling to access healthcare there are some resources available on our <a href="./healthcare.html">healthcare page</a> and <a href="https://docs.google.com/document/d/17txbjb2t_2SmhFNQlcTRJ0QGQ4IiOS2C7e27bBsvIM4">signposting document</a>.
+                If you are struggling to access healthcare there are some resources available on our <a href="./healthcare.php">healthcare page</a> and <a href="https://docs.google.com/document/d/17txbjb2t_2SmhFNQlcTRJ0QGQ4IiOS2C7e27bBsvIM4">signposting document</a>.
             </p>
             <p>
                 <h4>- Resume access to puberty blockers for trans teenagers</h4>
@@ -76,7 +65,9 @@
                 are still done by the NHS including <a href="https://www.wearequeeraf.com/let-down-horrified-and-disgusted-parents-and-young-people-respond-to-nhs-englands-plans-to-force-trans-youth-to-medically-detransition/">forced</a>
                 <a href="https://transactual.org.uk/blog/2024/10/19/wave-of-refusal-to-care-for-trans-adults-by-doctors-linked-to-rcgp-guidance-bigotry-and-incompetence/">detransition.</a> A GP should not be able to withdraw care by feigning incompetence.<br>
                 It is a sad reality that the previous health secretary has expressed more sympathy for an organisation of <a href="https://www.wearequeeraf.com/revealed-streeting-met-with-and-expressed-sympathy-for-pro-conversion-therapy-parents-group-bayswater/">child
-                abusers</a> than the <a href="https://transsafety.network/posts/my-parents-very-clearly-do-not-love-me-children-bayswater-speak-out/">children themselves</a>. The new health secretary shows no signs of reversing this and only pays lip service to "dignity" while refusing to even address us correctly.
+                abusers</a> than the <a href="https://transsafety.network/posts/my-parents-very-clearly-do-not-love-me-children-bayswater-speak-out/">children themselves</a>. The new health secretary shows no signs of reversing this and only pays lip service to "dignity" while refusing to even address us correctly. 
+                In light of these facts the <a href="https://www.wearequeeraf.com/draft-conversion-practices-bill-loopholes-make-it-instruction-manual-for-abuse/">loopholes in the draft conversion therapy ban</a> seem deliberate.
+
             </p>
             <p>
                 <h3>4: Actually enforceable anti-discrimination laws</h3>
@@ -116,9 +107,9 @@
             </p>
         </div>
     </main>
-    <footer>
-        TMA Manchester CIC, Registered Company Number 15807720 <br> contact: <a href="mailto:contact@transmutualaidmanchester.org">contact@transmutualaidmanchester.org</a>
-    </footer>
+    <?php
+    include("footer.php");
+    ?>
 </body>
 
 </html>

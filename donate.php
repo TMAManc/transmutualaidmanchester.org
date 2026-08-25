@@ -8,20 +8,9 @@
 </head>
 
 <body>
-    <header>
-        <div class="main-title">Trans Mutual Aid Manchester
-            <img src="./img/tmam-logo.jpg" alt="Trans Mutual Aid Manchester Logo" style="width:85px;height:85px"><br></div>
-        <div class="nav-bar">
-            <a href="./index.html">Home</a>
-            <a href="./about.html">About Us</a>
-            <a href="./donate.html">Donate</a>
-            <a href="./assistance.html">Assistance</a>
-            <a href="./getinvolved.html">Get Involved</a>
-            <a href="./healthcare.html">Healthcare</a>
-            <a href="./basicrights.html">The Problem</a>
-            <a href="./faq.html">FAQ</a>
-        </div>
-    </header>
+<?php
+    include("header.php");
+?>
     <main>
         <div class="center">
             <h1>Donate</h1>
@@ -37,9 +26,9 @@
             </p>
         </div>
     </main>
-    <footer>
-        TMA Manchester CIC, Registered Company Number 15807720 <br> contact: <a href="mailto:contact@transmutualaidmanchester.org">contact@transmutualaidmanchester.org</a>
-    </footer>
+    <?php
+    include("footer.php");
+    ?>
 </body>
 
 </html>

@@ -8,28 +8,17 @@
 </head>
 
 <body>
-    <header>
-        <div class="main-title">Trans Mutual Aid Manchester
-            <img src="./img/tmam-logo.jpg" alt="Trans Mutual Aid Manchester Logo" style="width:85px;height:85px"><br></div>
-        <div class="nav-bar">
-            <a href="./index.html">Home</a>
-            <a href="./about.html">About Us</a>
-            <a href="./donate.html">Donate</a>
-            <a href="./assistance.html">Assistance</a>
-            <a href="./getinvolved.html">Get Involved</a>
-            <a href="./healthcare.html">Healthcare</a>
-            <a href="./basicrights.html">The Problem</a>
-            <a href="./faq.html">FAQ</a>
-        </div>
-    </header>
+<?php
+    include("header.php");
+?>
     <main>
         <div class="center">
             <h1>About Us</h1>
             <p>
                 We are a trans led, radical mutual aid group, set up to help trans and non-binary people in Greater Manchester support each other through direct action. We run a small mutual aid fund, giving our community a way to help each other out with essential costs.
-                We raise money via fundraisers and direct debits which is then used by Trans Mutual Aid Manchester to give money, services or items to people in need who contact us. We are also building a grassroots aid network which will enable trans
+                We raise money via fundraisers and donations which is then used by Trans Mutual Aid Manchester to give money, services or items to people in need who contact us. We are also building a grassroots aid network which will enable trans
                 people in Manchester to help each other with things like attending medical appointments, support after surgery, befriending and social outreach. We aim to work closely with other groups in order to maximize our outreach and provide support
-                and community to as many people as possible. We are entirely volunteer run so consider <a href="./getinvolved.html">getting involved</a>.
+                and community to as many people as possible. We are entirely volunteer run so consider <a href="./getinvolved.php">getting involved</a>.
             </p>
             <p>
                 We seek to empower our trans community in Greater Manchester to decrease reliance on state institutions for our care and safety.
@@ -57,8 +46,8 @@
                 In order to have a community who understand us we have to congregate in large cities, it is our desire to ensure that Manchester is a welcoming city and that those arriving are able to find a healthy community easily. Unfortunately, housing costs can
                 be prohibitive. The most frequent reason for people requesting financial assistance from us is due to high rents in the city. This is indicative of the levels of poverty within our community. We are struggling with the cost of living before
                 we even get to the costs related to transition.<br> Like many other minority groups trans people are often not given the bare minimum of respect that should be commonplace in any just society. This discrimination is not
-                just from specific people who hate us but is built into the <a href="./basicrights.html">legal and healthcare systems</a>.
-                We are a trans specific organisation but cis people are encouraged to <a href="./donate.html">donate</a> to the fund.</p>
+                just from specific people who hate us but is built into the <a href="./basicrights.php">legal and healthcare systems</a>.
+                We are a trans specific organisation but cis people are encouraged to <a href="./donate.php">donate</a> to the fund.</p>
             <p>
                 Our core team does something both mundane and radical operating a direct giving programme. Giving cash grants of notable size to individuals without any restrictions on what they can be used for.
                 This type of work is extremely rare despite being an incredibly efficient way of helping people.
@@ -75,11 +64,9 @@
             </p>
         </div>
     </main>
-    <footer>
-
-        TMA Manchester CIC, Registered Company Number 15807720 <br> contact: <a href="mailto:contact@transmutualaidmanchester.org">contact@transmutualaidmanchester.org</a>
-
-    </footer>
+    <?php
+    include("footer.php");
+    ?>
 </body>
 
 </html>

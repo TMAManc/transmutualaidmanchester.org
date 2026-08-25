@@ -8,20 +8,9 @@
 </head>
 
 <body>
-    <header>
-        <div class="main-title">Trans Mutual Aid Manchester
-            <img src="./img/tmam-logo.jpg" alt="Trans Mutual Aid Manchester Logo" style="width:85px;height:85px"><br></div>
-        <div class="nav-bar">
-            <a href="./index.html">Home</a>
-            <a href="./about.html">About Us</a>
-            <a href="./donate.html">Donate</a>
-            <a href="./assistance.html">Assistance</a>
-            <a href="./getinvolved.html">Get Involved</a>
-            <a href="./healthcare.html">Healthcare</a>
-            <a href="./basicrights.html">The Problem</a>
-            <a href="./faq.html">FAQ</a>
-        </div>
-    </header>
+<?php
+    include("header.php");
+?>
     <main>
         <div class="center">
             <h1>Healthcare</h1>
@@ -32,7 +21,7 @@
                 your body acts in the same way as anyone else with that hormone profile. This is of course a simplification. Guides exist to help <a href="https://transhealthuk.noblogs.org/navigating-uk-trans-healthcare/">navigate the UK's trans healthcare system</a>.
             </p>
             <p>
-                To assist with finding a GP we have a <a href="https://www.google.com/maps/d/viewer?mid=1BZpGr-ntjNiHxg-TGCygk2Vi8aKCqWo&ll=53.46248811515522%2C-2.2710498759255593&z=11">GP review map</a>. Please contribute with your experiences. Anyone can add to the map, if you notice any abuse please let us know.<br>
+                To assist with finding a GP we have a <a href="https://www.google.com/maps/d/viewer?mid=1BZpGr-ntjNiHxg-TGCygk2Vi8aKCqWo&ll=53.46248811515522%2C-2.2710498759255593&z=11">GP review map</a>. (broken, replacement coming soon) Please contribute with your experiences. Anyone can add to the map, if you notice any abuse please let us know.<br>
                 The quality of care at a GP can change over time as staff come and go. If there arn't any GPs reviewed close to you then you can check if they have gone through the <a href="https://lgbt.foundation/help/pride-in-practice/">LGBT Foundation's Pride in Practice training</a>.
             </p>
 
@@ -55,9 +44,9 @@
 
         </div>
     </main>
-    <footer>
-        TMA Manchester CIC, Registered Company Number 15807720 <br> contact: <a href="mailto:contact@transmutualaidmanchester.org">contact@transmutualaidmanchester.org</a>
-    </footer>
+    <?php
+    include("footer.php");
+    ?>
 </body>
 
 </html>

@@ -8,20 +8,9 @@
 </head>
 
 <body>
-    <header>
-        <div class="main-title">Trans Mutual Aid Manchester
-            <img src="./img/tmam-logo.jpg" alt="Trans Mutual Aid Manchester Logo" style="width:85px;height:85px"><br></div>
-        <div class="nav-bar">
-            <a href="./index.html">Home</a>
-            <a href="./about.html">About Us</a>
-            <a href="./donate.html">Donate</a>
-            <a href="./assistance.html">Assistance</a>
-            <a href="./getinvolved.html">Get Involved</a>
-            <a href="./healthcare.html">Healthcare</a>
-            <a href="./basicrights.html">The Problem</a>
-            <a href="./faq.html">FAQ</a>
-        </div>
-    </header>
+<?php
+    include("header.php");
+?>
     <main>
         <div class="center">
             <p>
@@ -31,7 +20,7 @@
                 transition and are unsure what you can do to change certain things the <a href="https://genderkit.org.uk/">Gender
                   Construction Kit</a> website may be of use.<br> If you know of any resources that should be included feel free to contact us.
             </p>
-            <div class="center-image"><img src="./img/placeholder.jpg" alt="Trans Mutual Aid Manchester logo acting as a placeholder during development"></div>
+            <div class="center-image"><img src="./img/hexagon-logo.jpg" alt="Trans Mutual Aid Manchester gender honeycomb logo"></div>
             <p>
                 We maintain a skill share spreadsheet where members of the community have offered to help with whatever skills they have. These include things such as help with transport or advocacy at a doctors appointment. The publicly available version is anonymous,
                 if you require assistance one of the volunteers will facilitate an introduction. Mutual aid works by us all doing our part so we encourage you to also sign up to do what you can. Don't worry, you won't be swamped with requests.
@@ -39,14 +28,14 @@
             <p>
                 Many in our community require assistance with housing costs, food, or expenses related to their disability. If you need financial assistance email our support team at <a href="mailto:grants@transmutualaidmanchester.org">grants@transmutualaidmanchester.org</a>.
                 We can only afford to assist those within Greater Manchester and will require some amount of verification. There are no specific restrictions on what you can request financial aid for but our funding is limited. The amount we can give
-                and how frequently we can give a grant to the same person changes regularly based on our current financial situation. Please keep requests to genuine need and should your financial situation improve consider <a href="./donate.html">donating</a>.
+                and how frequently we can give a grant to the same person changes regularly based on our current financial situation. Please keep requests to genuine need and should your financial situation improve consider <a href="./donate.php">donating</a>.
                 Please be aware that we are a small team of volunteers so processing your request can take some time. The fund should not be relied upon for urgent time sensitive funds.
             </p>
         </div>
     </main>
-    <footer>
-        TMA Manchester CIC, Registered Company Number 15807720 <br> contact: <a href="mailto:contact@transmutualaidmanchester.org">contact@transmutualaidmanchester.org</a>
-    </footer>
+    <?php
+    include("footer.php");
+    ?>
 </body>
 
 </html>

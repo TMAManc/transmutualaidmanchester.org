@@ -1,9 +1,9 @@
 User-agent: *
 Content-Signal: ai-train=no, search=yes, ai-input=no
-Allow: /index.html
-Disallow: /basicrights.html
-Disallow: /assistance.html
-Disallow: /healthcare.html
-Disallow: /getinvolved.html
-Disallow: /faq.html
+Allow: /index.php
+Disallow: /basicrights.php
+Disallow: /assistance.php
+Disallow: /healthcare.php
+Disallow: /getinvolved.php
+Disallow: /faq.php
 Crawl-delay: 100
