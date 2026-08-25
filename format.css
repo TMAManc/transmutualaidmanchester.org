@@ -92,6 +92,7 @@ main {
 }
 
 .nav-bar {
+    font-size: clamp(15pt, 2.5vw, 22pt);
     color: black;
 }
 
