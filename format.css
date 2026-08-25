@@ -1,3 +1,4 @@
+
 html,
 body {
     background-color: #5BCEFA;
@@ -7,32 +8,63 @@ body {
     width: 100%;
     display: flex;
     flex-direction: column;
+    flex-basis: auto;
     font-size: 15pt;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    overflow: scroll;
 }
 
-header {
+main {
+    padding: 1%;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-grow: 1;
+}
+
+.embedded-header {
     background-color: #F5A9B8;
-    width: 100%;
-    margin: auto;
-    padding: 1;
+    margin: 0;
+    padding: 0;
+    border: none;
+    min-width: 100%;
     img {
         display: inline;
         float: right;
     }
 }
 
-footer {
+.embedded-footer {
     background-color: #F5A9B8;
-    width: 100%;
-    margin: auto;
-    padding: 1;
+    margin: 0;
+    padding: 0;
+    flex-shrink: 1;
 }
 
-main {
-    padding: 1%;
-    background-color: #FFFFFF;
-    flex-grow: 1;
+.iframe-header {
+    border: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    flex-shrink: 1;
+   
+}
+
+.head-wrapper{
+    border: none;
+    height: auto;
+    min-width: 100%;
+    min-height: 85px;
+    max-height: 20%;
+    display: flex;
+}
+
+.foot-wrapper{
+    border: none;
+    height: auto;
+    min-width: 100%;
+    max-height:55px;
+    display: flex;
 }
 
 .center {
@@ -79,5 +111,6 @@ main {
 }
 
 .main-title {
-    font-size: 30pt;
+    font-size: clamp(15pt, 3vw, 25pt);
+    width: 100%;
 }
